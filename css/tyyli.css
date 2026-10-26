@@ -16,5 +16,5 @@ a:after {
     color: rgb(51, 255, 20);
 }
 img {
-    border: 25px solid black;
+    border: 5px dashed red;
 }
