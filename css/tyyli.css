@@ -18,3 +18,10 @@ a:after {
 img {
     border: 5px dashed black;   
 }
+div {
+    display: flex;
+    gap: 1rem; 
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
