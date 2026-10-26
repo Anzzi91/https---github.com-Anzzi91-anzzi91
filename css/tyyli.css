@@ -1,0 +1,17 @@
+body {
+    color: deeppink;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: lightblue;
+}
+
+nav ul li a {
+    color: aliceblue;
+}
+
+a:hover {
+    color: rgb(255, 20, 20);
+}
+
+a:after {
+    color: rgb(51, 255, 20);
+}
