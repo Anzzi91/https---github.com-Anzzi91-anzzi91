@@ -1,13 +1,15 @@
 
+div{
+    
+}
 
-
-#jakokahteen {
+.jakokahteen {
 display:flex;
 flex-wrap: wrap;
 gap: 1rem;
 }
 
-.etusivun-jakokahteen 
+#etusivun-jakokahteen 
 {
     border: 1px solid black;
 
