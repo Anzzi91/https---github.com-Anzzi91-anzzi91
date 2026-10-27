@@ -1,6 +1,6 @@
 
 div{
-    
+
 }
 
 .jakokahteen {
@@ -15,4 +15,14 @@ gap: 1rem;
 
 }
     
+
+h3{
+    color: rgb(255, 0, 225);
+ } 
+p
+{
+ font-family:trebuchet ms, sans-serif;
+ color:black;
+}
+
 
