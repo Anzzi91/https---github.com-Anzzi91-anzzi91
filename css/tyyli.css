@@ -28,6 +28,6 @@ div {
 .koko-leveys-kuva {
     width: 100%;
     height: 250px;       
-    object-fit: cover; 
+    object-fit: cover;   
     display: block;
 }
