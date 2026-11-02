@@ -15,7 +15,8 @@ gap: 1rem;
 
 }
     
-
+h2{width: 100%; text-align: center;
+}
 h3{
     color: rgb(255, 0, 225);
  } 
@@ -23,5 +24,21 @@ p
 {
  font-family:trebuchet ms, sans-serif;
  color:black;
+ 
 }
-
+.kortit {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content:flex-start;
+    align-items:first baseline
+}
+.kortti {
+    border: 1px solid black;
+    width: 230px;
+    padding: 1rem;
+    margin: 1rem;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
