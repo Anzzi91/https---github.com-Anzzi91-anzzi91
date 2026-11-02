@@ -28,10 +28,12 @@ p
 }
 .kortit {
     display: flex;
+     height: 100%;
     flex-wrap: wrap;
     gap: 1rem;
     justify-content:flex-start;
-    align-items:first baseline
+    
+   
 }
 .kortti {
     border: 1px solid black;
@@ -42,7 +44,17 @@ p
     box-shadow: 5px 5px 10px rgba(0,0,0,0.2);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
+#kolmaskortti
+{
+    border: 1px solid black;
+    width: 230px;
+    height: 500px;
+    padding: 1rem;
+    margin: 1rem;
+    background-color: rgb(255, 255, 255);
+  
+}
 .kortti:hover {
     transform: translateY(-5px);
-    box-shadow: 5px 10px 15px rgba(0,0,0,0.3);
-}
+    box-shadow: 5px 10px 15px rgb(255, 0, 225);
+    }
