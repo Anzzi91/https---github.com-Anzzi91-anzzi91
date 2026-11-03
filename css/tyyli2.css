@@ -31,7 +31,7 @@ p
      height: 100%;
     flex-wrap: wrap;
     gap: 1rem;
-    justify-content:flex-start;
+     align-items: flex-start;
     
    
 }
@@ -58,3 +58,4 @@ p
     transform: translateY(-5px);
     box-shadow: 5px 10px 15px rgb(255, 0, 225);
     }
+
