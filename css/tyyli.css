@@ -31,7 +31,7 @@ div {
     object-fit: cover;   
     display: block;
 }
-nav a[aria-current="page"] {
-    color: deeppink;
-    font-weight: bold;
+
+.etusivu-otsikko {
+    text-align: center;
 }
