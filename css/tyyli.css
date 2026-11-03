@@ -4,10 +4,6 @@ body {
     background-color: rgb(160, 203, 196);
 }
 
-nav ul li a {
-    color: rgb(12, 40, 81);
-}
-
 a:hover {
     color: rgb(255, 20, 20);
 }
@@ -53,4 +49,7 @@ nav ul li a {
 
 nav ul li a:hover {
     color: hotpink;
+}
+header {
+    text-align: center;
 }
