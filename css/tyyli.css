@@ -31,3 +31,18 @@ div {
     object-fit: cover;   
     display: block;
 }
+nav {
+    position: sticky;
+    top: 0;
+    background-color: rgb(160, 203, 196);
+    z-index: 1000;
+}
+
+nav a:hover {
+    color: deeppink;
+}
+
+nav a[aria-current="page"] {
+    color: deeppink;
+    font-weight: bold;
+}
