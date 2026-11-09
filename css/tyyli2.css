@@ -86,3 +86,45 @@ p {
     display: block;
     margin: 10px auto;
 }
+.lomake-kortti {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 30px;
+
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+
+.lomake-kortti h1 {
+    text-align: center;
+    color: rgb(255, 0, 225);
+}
+
+.lomake-kortti form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.lomake-kortti input,
+.lomake-kortti textarea {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+}
+
+.lomake-kortti textarea {
+    height: 150px;
+}
+
+.lomake-kortti button {
+    padding: 12px;
+    background: rgb(255, 0, 225);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
