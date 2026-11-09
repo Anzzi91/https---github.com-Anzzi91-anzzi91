@@ -128,7 +128,16 @@ p {
     border-radius: 8px;
     cursor: pointer;
 }
-.lomake:hover {
+.lomake-kortti {
+    border: 1px solid black;
+    padding: 1rem;
+    margin: 1rem auto;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.lomake-kortti:hover {
     transform: translateY(-5px);
-    box-shadow: 0 0 30px  rgb(255, 0, 225);
+    box-shadow: 5px 10px 15px rgb(255, 0, 225);
 }
