@@ -26,6 +26,13 @@ p
  font-family:trebuchet ms, sans-serif;
  color:black;
  
+ h1 {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
 }
 #etusivun-jakokahteen {
     display: flex;
@@ -65,3 +72,17 @@ p
     transform: translateY(-5px);
     box-shadow: 5px 10px 15px rgb(255, 0, 225);
     }
+.rickroll-sivu {
+    text-align: center;
+}
+
+.rickroll-sivu img {
+    display: block;
+    margin: 20px auto;
+    border: 5px dashed deeppink;
+}
+
+.rickroll-sivu button {
+    display: block;
+    margin: 10px auto;
+}

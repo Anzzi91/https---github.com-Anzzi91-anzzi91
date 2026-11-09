@@ -56,3 +56,10 @@ header {
     text-align: left;
     list-style-position: outside;
 }
+h1 {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
