@@ -158,3 +158,15 @@ p {
     transform: translateY(-5px);
     box-shadow: 5px 10px 15px rgb(255, 0, 225);
 }
+.ff-kuva {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+.aion-kuva {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
