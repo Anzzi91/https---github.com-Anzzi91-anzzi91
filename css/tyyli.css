@@ -12,14 +12,15 @@ a:after {
     color: rgb(51, 255, 20);
 }
 img {
-    border: 5px dashed rgb(255, 0, 225);
+    border: 5px  rgb(16, 15, 16);
 }
-
 .koko-leveys-kuva {
     width: 100%;
     height: 250px;       
     object-fit: cover;   
     display: block;
+    border: 5px dashed rgb(255, 0, 225);
+
 }
 nav ul {
     list-style: none;
