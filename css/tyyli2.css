@@ -170,3 +170,7 @@ p {
     gap: 2rem;
     flex-wrap: wrap;
 }
+button {
+    display: block;
+    margin: 20px auto;
+}
